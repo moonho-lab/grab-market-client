@@ -30,7 +30,7 @@ function MainPage() {
         <div id="banner">
           <img src="images/images/products/images/banners/banner1.png" />
         </div>
-        <h1>판매되는 상품들</h1>
+        <h1> 판매되는 상품들 이다 </h1>
         <div id="product-list"></div>
         {products.map(function (product, index) {
           return (
@@ -39,7 +39,7 @@ function MainPage() {
                 <img className="product-img" src={product.imgUrl} />
                 <div className="product-contents">
                   <span className="product-name">{product.name}</span>
-                  <span className="product-price">{product.price}원</span>
+                  <span className="product-price">{product.price} 원 </span>
                   <div className="product-seller">
                     <img
                       className="prodcut-avatar"
